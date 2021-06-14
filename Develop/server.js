@@ -44,7 +44,7 @@ app.post('/api/notes', (req, res) => {
 
         newNote.id = ID;
 
-        newNote.push(newNote);
+        savedNotes.push(newNote);
 
         fs.writeFile(db, JSON.stringify(savedNotes), err => {
             if (err) {

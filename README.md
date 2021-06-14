@@ -3,7 +3,7 @@
 ## Description
 NoteTaker is a CL application that displays on the web via Heroku using node.js through web framework express.js. Routes were established on the backend to connect with the frontend. This allows for communication between files and servers. NoteTaker is able to CREATE, READ, UPDATE, and DELETE.
 
-![Note Page Image](Assets/expressNoteTaker.png)
+![Note Page Image](/Assets/expressNoteTaker.png)
 
 ## Usage
 
